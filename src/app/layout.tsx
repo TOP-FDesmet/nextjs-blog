@@ -14,10 +14,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header>Florian Desmet Blog</header>
+        <header className="bg-red-200">Florian Desmet Blog</header>
         <main>{children}</main>
+        <footer className="bg-red-200">Footer</footer>
       </body>
-      <footer>Footer</footer>
     </html>
   );
 }
